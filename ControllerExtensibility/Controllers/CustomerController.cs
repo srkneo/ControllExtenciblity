@@ -20,7 +20,7 @@ namespace ControllerExtensibility.Controllers
                 });
         }
 
-        [ActionName("Enumerate")]
+        [ActionName("New")]
         public ActionResult List()
         {
             return View(
